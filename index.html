@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chart Sample</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="lib/jquery-3.2.1.min.js"></script> -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/chart.min.js"></script>
+    <script src="lib/angular-chart.min.js"></script>
+    <script src="chart.controller.js"></script>
+
+    <div class="chartDiv" ng-app="ChartApp" ng-controller="ChartController">
+         <canvas id="chartcanvas"></canvas>
+         <button type="button" ng-click="updateContent()">Update Content</button>
+    </div>
+
+
+
+</body>
+
+</html>
